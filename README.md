@@ -1,5 +1,12 @@
 # Kryptadium-Mod
 
+# Version 0.0.4 Beta Or + Need GeckoLib In Order To Work!
+
+(Updates to Kryptadium are coming very soon, Personal issues delayed the development of the mod)
+ 
+# Warning: Optifine is not working well with forge 1.18.2 and could result to the game crashing! (Optifine 1.19.2 do work)
+
+
 The Kryptadium Mod adds for the moment only one ore, a new ore called kryptonite, it adds lots of items and some food you can get.
 
  
