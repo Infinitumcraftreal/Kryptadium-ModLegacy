@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 12",
+    "3 5",
+    " 78"
+  ],
+  "key": {
+    "1": {
+      "item": "kryptadium:kryptonite"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "kryptadium:kryptonite"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "7": {
+      "item": "kryptadium:kryptonite"
+    },
+    "8": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "kryptadium:kryptonite_bow",
+    "count": 1
+  }
+}

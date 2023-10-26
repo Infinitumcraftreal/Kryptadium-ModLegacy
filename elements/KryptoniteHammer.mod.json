@@ -1,0 +1,34 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "texture": "hammertemplate",
+    "customModelName": "Normal",
+    "name": "Kryptonite Hammer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MineNoobs"
+    },
+    "harvestLevel": 4,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 0,
+    "damageVsEntity": 4.0,
+    "usageCount": 1561,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Kryptonite"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "KryptoniteHammerBlockDestroyedWithTool"
+    }
+  }
+}

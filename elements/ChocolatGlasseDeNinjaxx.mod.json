@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": "CUSTOM:BarDeChocolat"
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CornetDeGlace"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GlaceDeNinjaxx"
+    },
+    "name": "chocolat_glasse_de_ninjaxx",
+    "namespace": "mod"
+  }
+}

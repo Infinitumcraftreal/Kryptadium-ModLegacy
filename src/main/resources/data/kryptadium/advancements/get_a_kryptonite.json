@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "kryptadium:kryptonite"
+    },
+    "title": {
+      "translate": "advancements.get_a_kryptonite.title"
+    },
+    "description": {
+      "translate": "advancements.get_a_kryptonite.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "get_a_kryptonite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kryptadium:kryptonite"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "kryptadium:kryptadium"
+}

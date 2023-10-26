@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "4": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "kryptadium:cornet_de_glace",
+    "count": 1
+  }
+}

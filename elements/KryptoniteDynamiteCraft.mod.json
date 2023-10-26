@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "CUSTOM:Kryptonite"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "Blocks.TNT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:KryptoniteDynamite"
+    },
+    "name": "kryptonite_dynamite_craft",
+    "namespace": "mod"
+  }
+}

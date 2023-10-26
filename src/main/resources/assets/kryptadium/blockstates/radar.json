@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kryptadium:block/radar"
+    },
+    "facing=east": {
+      "model": "kryptadium:block/radar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kryptadium:block/radar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kryptadium:block/radar",
+      "y": 270
+    }
+  }
+}

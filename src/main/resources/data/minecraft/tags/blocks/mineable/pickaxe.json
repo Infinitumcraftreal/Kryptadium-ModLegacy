@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "kryptadium:kryptonite_ore",
+    "kryptadium:kryptonite_block",
+    "kryptadium:radar",
+    "kryptadium:kryptonite_lantern",
+    "kryptadium:radar_cooldown",
+    "kryptadium:kryptonite_chest"
+  ]
+}

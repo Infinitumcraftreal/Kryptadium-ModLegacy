@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "kryptadium:kryptonite_sword"
+    },
+    "title": {
+      "translate": "advancements.killing_the_kryptonite_boss.title"
+    },
+    "description": {
+      "translate": "advancements.killing_the_kryptonite_boss.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killing_the_kryptonite_boss": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "kryptadium:get_a_kryptonite"
+}

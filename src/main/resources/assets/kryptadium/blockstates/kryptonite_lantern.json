@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kryptadium:block/kryptonite_lantern"
+    },
+    "facing=east": {
+      "model": "kryptadium:block/kryptonite_lantern",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kryptadium:block/kryptonite_lantern",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kryptadium:block/kryptonite_lantern",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "texture": "kryptonite_piochetexture",
+    "customModelName": "Normal",
+    "name": "Kryptonite Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MineNoobs"
+    },
+    "harvestLevel": 5,
+    "efficiency": 13.0,
+    "attackSpeed": 1.2,
+    "enchantability": 18,
+    "damageVsEntity": 6.0,
+    "usageCount": 3200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Kryptonite"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

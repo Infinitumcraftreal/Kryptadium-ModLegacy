@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "textureradar",
+        "2": "pilier",
+        "3": "base",
+        "4": "radar",
+        "6": "white"
+      },
+      "name": "default"
+    }
+  }
+}

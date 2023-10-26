@@ -1,0 +1,1592 @@
+{
+  "mod_elements": [
+    {
+      "name": "MineNoobs",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mine_noobs",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "KryptoniteOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/worldgen/configured_feature/kryptonite_ore.json",
+          "src/main/java/net/mcreator/kryptonite/block/KryptoniteOreBlock.java",
+          "src/main/java/net/mcreator/kryptonite/world/features/ores/KryptoniteOreFeature.java",
+          "src/main/resources/assets/kryptadium/blockstates/kryptonite_ore.json",
+          "src/main/resources/data/kryptadium/worldgen/placed_feature/kryptonite_ore.json",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_ore.json",
+          "src/main/resources/data/kryptadium/forge/biome_modifier/kryptonite_ore_biome_modifier.json",
+          "src/main/resources/assets/kryptadium/models/block/kryptonite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonite",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/item/kryptonite.json",
+          "src/main/java/net/mcreator/kryptonite/item/KryptoniteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Kryptoniteorekryptonite",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptoniteorekryptonite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptoniteorekryptonite.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteSword",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/item/KryptoniteSwordItem.java",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptonitekryptoniteSword",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptonite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptonite_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteShovel",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/item/KryptoniteShovelItem.java",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitekryptoniteshovel",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptoniteshovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptoniteshovel.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteAxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_axe.json",
+          "src/main/java/net/mcreator/kryptonite/item/KryptoniteAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitekryptoniteaxe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptoniteaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptoniteaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitekryptoniteaxe2",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptoniteaxe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptoniteaxe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptonitePickaxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/item/KryptonitePickaxeItem.java",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteKryptonitePickaxe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_kryptonite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_kryptonite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteHoe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_hoe.json",
+          "src/main/java/net/mcreator/kryptonite/item/KryptoniteHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteKryptonitehoe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_kryptonitehoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_kryptonitehoe.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteKryptoniteHoe2",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_kryptonite_hoe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_kryptonite_hoe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/item/KryptoniteArmorItem.java",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_armor_helmet.json",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_armor_chestplate.json",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_armor_boots.json",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteKryptoniteHelmet",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_kryptonite_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_kryptonite_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteKryptoniteChestplate",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_kryptonite_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_kryptonite_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteKryptoniteLeggings",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_kryptonite_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_kryptonite_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteKryptoniteBoots",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_kryptonite_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_kryptonite_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteBlock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/blockstates/kryptonite_block.json",
+          "src/main/resources/assets/kryptadium/models/block/kryptonite_block.json",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_block.json",
+          "src/main/java/net/mcreator/kryptonite/block/KryptoniteBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitekryptoniteblock",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptoniteblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptoniteblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptoniteblockkryptonite",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptoniteblockkryptonite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptoniteblockkryptonite.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/KryptoniteApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteApple",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_apple.json",
+          "src/main/java/net/mcreator/kryptonite/item/KryptoniteAppleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitekryptoniteapple",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptoniteapple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptoniteapple.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoKnife",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krypto_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/item/KryptoKnifeItem.java",
+          "src/main/resources/assets/kryptadium/models/item/krypto_knife.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitekryptoniteknife",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptoniteknife",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptoniteknife.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitekryptoniteknife1",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptoniteknife_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptoniteknife_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitekryptoniteknife2",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptoniteknife_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptoniteknife_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitekryptoniteknife3",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptoniteknife_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptoniteknife_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitekryptoniteknife4",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptoniteknife_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptoniteknife_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitekryptoniteknife5",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptoniteknife_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptoniteknife_5.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitekryptoniteknife6",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptoniteknife_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptoniteknife_6.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitekryptoniteknife7",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitekryptoniteknife_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonitekryptoniteknife_7.json"
+        ]
+      }
+    },
+    {
+      "name": "CornetDeGlace",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cornet_de_glace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/item/CornetDeGlaceItem.java",
+          "src/main/resources/assets/kryptadium/models/item/cornet_de_glace.json"
+        ]
+      }
+    },
+    {
+      "name": "GlaceChocolate",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glace_chocolate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/item/glace_chocolate.json",
+          "src/main/java/net/mcreator/kryptonite/item/GlaceChocolateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BarDeChocolat",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bar_de_chocolat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/item/bar_de_chocolat.json",
+          "src/main/java/net/mcreator/kryptonite/item/BarDeChocolatItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CacaoBarDeChocolat",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cacao_bar_de_chocolat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/cacao_bar_de_chocolat.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolatGlaceCraft",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolat_glace_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/chocolat_glace_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "CornetDeGlasse",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cornet_de_glasse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/cornet_de_glasse.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteTnt",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_tnt.json",
+          "src/main/resources/assets/kryptadium/blockstates/kryptonite_tnt.json",
+          "src/main/resources/assets/kryptadium/models/block/kryptonite_tnt.json",
+          "src/main/java/net/mcreator/kryptonite/block/KryptoniteTntBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteTntBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_tnt_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/KryptoniteTntBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitedynamiteneed",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitedynamiteneed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/item/KryptonitedynamiteneedItem.java",
+          "src/main/resources/assets/kryptadium/models/item/kryptonitedynamiteneed.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteDynamiteProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_dynamite_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/KryptoniteDynamiteProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteDynamite",
+      "type": "rangeditem",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_dynamite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/item/KryptoniteDynamiteItem.java",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_dynamite.json",
+          "src/main/java/net/mcreator/kryptonite/entity/KryptoniteDynamiteEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteDynamiteCraft",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_dynamite_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_dynamite_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteDynamiteRangedItemUsed",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_dynamite_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/KryptoniteDynamiteRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteBow",
+      "type": "rangeditem",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_bow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_bow.json",
+          "src/main/java/net/mcreator/kryptonite/item/KryptoniteBowItem.java",
+          "src/main/java/net/mcreator/kryptonite/entity/KryptoniteBowEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteBowRangedItemUsed",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_bow_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/KryptoniteBowRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TntKryptoniteCraft",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_kryptonite_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/tnt_kryptonite_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteBoxCraft1",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_box_craft_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_box_craft_1.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteBoxCraft2",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_box_craft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_box_craft_2.json"
+        ]
+      }
+    },
+    {
+      "name": "GiveRecipeTickFood",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_recipe_tick_food",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/GiveRecipeTickFoodProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiveRecipeTickKryptonite",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_recipe_tick_kryptonite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/GiveRecipeTickKryptoniteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Radar",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/blockstates/radar.json",
+          "src/main/resources/assets/kryptadium/models/block/radar.json",
+          "src/main/java/net/mcreator/kryptonite/block/RadarBlock.java",
+          "src/main/resources/assets/kryptadium/models/item/radar.json"
+        ]
+      }
+    },
+    {
+      "name": "RadarUpdateTick",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radar_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/RadarUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitetntblowup1",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitetntblowup_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/block/kryptonitetntblowup_1.json",
+          "src/main/resources/assets/kryptadium/blockstates/kryptonitetntblowup_1.json",
+          "src/main/resources/assets/kryptadium/models/item/kryptonitetntblowup_1.json",
+          "src/main/java/net/mcreator/kryptonite/block/Kryptonitetntblowup1Block.java"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitetntblowup2",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitetntblowup_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/item/kryptonitetntblowup_2.json",
+          "src/main/resources/assets/kryptadium/blockstates/kryptonitetntblowup_2.json",
+          "src/main/resources/assets/kryptadium/models/block/kryptonitetntblowup_2.json",
+          "src/main/java/net/mcreator/kryptonite/block/Kryptonitetntblowup2Block.java"
+        ]
+      }
+    },
+    {
+      "name": "Kryptonitetntredstoneon",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonitetntredstoneon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/KryptonitetntredstoneonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteTorch",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_torch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_torch.json",
+          "src/main/resources/assets/kryptadium/blockstates/kryptonite_torch.json",
+          "src/main/resources/assets/kryptadium/models/block/kryptonite_torch.json",
+          "src/main/java/net/mcreator/kryptonite/block/KryptoniteTorchBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteTorchParticle",
+      "type": "particle",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_torch_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/client/particle/KryptoniteTorchParticleParticle.java",
+          "src/main/resources/assets/kryptadium/particles/kryptonite_torch_particle.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteTorchCraft",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_torch_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_torch_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteNuggets",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_nuggets",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/item/KryptoniteNuggetsItem.java",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_nuggets.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteLantern",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_lantern",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/block/KryptoniteLanternBlock.java",
+          "src/main/resources/assets/kryptadium/blockstates/kryptonite_lantern.json",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_lantern.json",
+          "src/main/resources/assets/kryptadium/models/block/kryptonite_lantern.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteLanternCraft",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_lantern_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_lantern_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteNuggetsCraft",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_nuggets_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_nuggets_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteCraftNuggets",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_craft_nuggets",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_craft_nuggets.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteRadarCraft",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_radar_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_radar_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "RadarCooldown",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radar_cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/block/RadarCooldownBlock.java",
+          "src/main/resources/assets/kryptadium/models/item/radar_cooldown.json",
+          "src/main/resources/assets/kryptadium/blockstates/radar_cooldown.json",
+          "src/main/resources/assets/kryptadium/models/block/radar_cooldown.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteBoss",
+      "type": "livingentity",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_boss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/entity/KryptoniteBossEntity.java",
+          "src/main/java/net/mcreator/kryptonite/client/renderer/KryptoniteBossRenderer.java",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_boss_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteBossModel",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_boss_model",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/KryptoniteBossModelProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "KryptaxoEntityDies",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptaxo_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/KryptaxoEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kryptaxo",
+      "type": "livingentity",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptaxo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/item/kryptaxo_spawn_egg.json",
+          "src/main/java/net/mcreator/kryptonite/entity/KryptaxoEntity.java",
+          "src/main/resources/data/kryptadium/forge/biome_modifier/kryptaxo_biome_modifier.json",
+          "src/main/java/net/mcreator/kryptonite/client/renderer/KryptaxoRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "KryptaxoModel",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptaxo_model",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/KryptaxoModelProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "KryptoniteHammerBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_hammer_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/KryptoniteHammerBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteHammer",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_hammer.json",
+          "src/main/java/net/mcreator/kryptonite/item/KryptoniteHammerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteHammerCraft",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_hammer_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_hammer_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptadium",
+      "type": "achievement",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptadium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/advancements/kryptadium.json"
+        ]
+      }
+    },
+    {
+      "name": "GetAKryptonite",
+      "type": "achievement",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_a_kryptonite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/advancements/get_a_kryptonite.json"
+        ]
+      }
+    },
+    {
+      "name": "FullKryptoniteArmor",
+      "type": "achievement",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_kryptonite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/advancements/full_kryptonite_armor.json"
+        ]
+      }
+    },
+    {
+      "name": "GiveFullKryArmorSetAdvancement",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_full_kry_armor_set_advancement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/GiveFullKryArmorSetAdvancementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KillingTheKryptoniteBoss",
+      "type": "achievement",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killing_the_kryptonite_boss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/advancements/killing_the_kryptonite_boss.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftAKryptoniteBlock",
+      "type": "achievement",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_a_kryptonite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/advancements/craft_a_kryptonite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteBossPlaced",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_boss_placed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/KryptoniteBossPlacedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteTNTBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_tnt_block_destroyed_by_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/KryptoniteTNTBlockDestroyedByExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteChestGUI",
+      "type": "gui",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_chest_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/client/gui/KryptoniteChestGUIScreen.java",
+          "src/main/java/net/mcreator/kryptonite/world/inventory/KryptoniteChestGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteChest",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_chest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/block/KryptoniteChestBlock.java",
+          "src/main/java/net/mcreator/kryptonite/block/entity/KryptoniteChestBlockEntity.java",
+          "src/main/resources/assets/kryptadium/models/block/kryptonite_chest.json",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_chest.json",
+          "src/main/resources/assets/kryptadium/blockstates/kryptonite_chest.json"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteChestCraft",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_chest_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kryptadium/recipes/kryptonite_chest_craft.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "radar_sound",
+      "files": [
+        "bibradar"
+      ],
+      "category": "neutral",
+      "subtitle": "The Beep Sound Of The Radar"
+    },
+    {
+      "name": "kryptonitebossdiesound",
+      "files": [
+        "dead"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "kryptonitebosshurtsound",
+      "files": [
+        "hurt"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "kryptonitebossstepsound",
+      "files": [
+        "step"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.radar_sound": "The Beep Sound Of The Radar",
+      "entity.kryptadium.kryptonite_boss": "Kryptonite Golem",
+      "item.kryptonitemod.kryptonite_pickaxe": "Kryptonite Pickaxe",
+      "block.kryptadium.kryptonitetntblowup_2": "Kryptonitetntblowup 2",
+      "item.kryptonitemod.kryptonite_shovel": "Kryptonite Shovel",
+      "block.kryptadium.kryptonite_block": "Kryptonite Block",
+      "item.kryptadium.kryptonite_apple": "Kryptonite Apple",
+      "item.minenoobs.krypto_knife": "Krypto Knife",
+      "item.kryptadium.kryptonite_axe": "Kryptonite Axe",
+      "block.kryptadium.radar": "Radar (Experimental)",
+      "gui.kryptadium.kryptonite_chest_gui.label_inventory": "Inventory",
+      "block.kryptadium.kryptonite_ore": "Kryptonite Ore",
+      "advancements.kryptadium.title": "Kryptadium",
+      "item.kryptonitemod.bar_de_chocolat": "Bar De Chocolat",
+      "item.kryptadium.kryptaxo_spawn_egg": "Kryptaxo Spawn Egg",
+      "item_group.kryptadium.mine_noobs": "Kryptadium",
+      "gui.kryptadium.kryptonite_chest_gui.label_kryptonite_chest": "Kryptonite Chest",
+      "subtitles.kryptonitebossdiesound": "",
+      "item.kryptonitemod.kryptonite_apple": "Kryptonite Apple",
+      "advancements.kryptadium.descr": "Play With The Mod Kryptadium Installed",
+      "item.kryptadium.kryptonite_boss_spawn_egg": "Kryptonite Golem Spawn Egg",
+      "subtitles.kryptonitebosshurtsound": "",
+      "item.minenoobs.bar_de_chocolat": "Bar De Chocolat",
+      "item.kryptadium.kryptonite_shovel": "Kryptonite Shovel",
+      "item.kryptonitemod.kryptonite_hoe": "Kryptonite Hoe",
+      "item.minenoobs.kryptonite_pickaxe": "Kryptonite Pickaxe",
+      "item.minenoobs.kryptonite_armor_leggings": "Kryptonite Armor Leggings",
+      "item.kryptonitemod.kryptonite_bow": "Kryptonite Bow",
+      "item.minenoobs.cornet_de_glace": "Cornet De Glace",
+      "block.kryptadium.kryptonite_torch": "Kryptonite Torch",
+      "block.kryptadium.kryptonitetntblowup_1": "Kryptonitetntblowup 1",
+      "entity.kryptadium.kryptaxo": "Kryptaxo",
+      "item.minenoobs.kryptonite_shovel": "Kryptonite Shovel",
+      "block.kryptonitemod.kryptonite_ore": "Kryptonite Ore",
+      "item.kryptadium.kryptonite_sword": "Kryptonite Sword",
+      "subtitles.kryptonitebossstepsound": "",
+      "item.kryptadium.kryptonite_armor_helmet": "Kryptonite Helmet",
+      "item.minenoobs.kryptonite_hoe": "Kryptonite Hoe",
+      "item.kryptonitemod.kryptonite_axe": "Kryptonite Axe",
+      "block.minenoobs.kryptonite_block": "Kryptonite Block",
+      "item.minenoobs.kryptonite_bow": "Kryptonite Bow",
+      "item.kryptonitemod.glace_chocolate": "Glace Chocolate",
+      "block.minenoobs.kryptonite_ore": "Kryptonite Ore",
+      "item.kryptonitemod.krypto_knife": "Krypto Knife",
+      "item.kryptadium.cornet_de_glace": "Cornet De Glace",
+      "item.kryptadium.kryptonite_dynamite": "Kryptonite Dynamite",
+      "advancements.craft_a_kryptonite_block.descr": "You Got A Kryptonite Block!",
+      "item.kryptonitemod.cornet_de_glace": "Cornet De Glace",
+      "item.kryptonitemod.kryptonite_armor_leggings": "Kryptonite Armor Leggings",
+      "item.kryptadium.glace_chocolate": "Glace Chocolate",
+      "item.minenoobs.kryptonitedynamiteneed": "Kryptonitedynamiteneed",
+      "advancements.get_a_kryptonite.title": "Get A Kryptonite",
+      "block.kryptonitemod.kryptonite_block": "Kryptonite Block",
+      "item.kryptonitemod.kryptonite_sword": "Kryptonite Sword",
+      "item.minenoobs.kryptonite_apple": "Kryptonite Apple",
+      "item.minenoobs.kryptonite": "Kryptonite",
+      "advancements.killing_the_kryptonite_boss.descr": "Kill The Kryptonite Boss",
+      "item.kryptadium.kryptonitedynamiteneed": "Kryptonitedynamiteneed",
+      "advancements.full_kryptonite_armor.title": "Full Kryptonite Armor",
+      "item.kryptadium.krypto_knife": "Krypto Knife",
+      "block.minenoobs.kryptonite_tnt": "Kryptonite Tnt",
+      "item.minenoobs.kryptonite_armor_helmet": "Kryptonite Armor Helmet",
+      "item.kryptonitemod.kryptonite_dynamite": "Kryptonite Dynamite",
+      "block.kryptonitemod.kryptonite_tnt": "Kryptonite Tnt",
+      "item.kryptonitemod.kryptonite_armor_boots": "Kryptonite Armor Boots",
+      "item.kryptadium.kryptonite_bow": "Kryptonite Bow",
+      "advancements.full_kryptonite_armor.descr": "Get A Full Set Of Kryptonite Armor",
+      "item.kryptadium.bar_de_chocolat": "Bar De Chocolat",
+      "advancements.killing_the_kryptonite_boss.title": "Killing The Kryptonite Boss",
+      "item.kryptadium.kryptonite_armor_boots": "Kryptonite Boots",
+      "item.minenoobs.kryptonite_dynamite": "Kryptonite Dynamite",
+      "item.kryptadium.kryptonite_hoe": "Kryptonite Hoe",
+      "item.kryptadium.kryptonite_armor_chestplate": "Kryptonite Chestplate",
+      "block.kryptadium.kryptonite_lantern": "Kryptonite Lantern",
+      "itemGroup.tabmine_noobs": "Kryptadium",
+      "item.minenoobs.kryptonite_sword": "Kryptonite Sword",
+      "item.minenoobs.kryptonite_armor_chestplate": "Kryptonite Armor Body",
+      "item.minenoobs.kryptonite_armor_boots": "Kryptonite Armor Boots",
+      "block.kryptadium.kryptonite_tnt": "Kryptonite Tnt",
+      "advancements.craft_a_kryptonite_block.title": "Craft A Kryptonite Block",
+      "item.kryptonitemod.kryptonite_armor_helmet": "Kryptonite Armor Helmet",
+      "item.kryptadium.kryptonite_armor_leggings": "Kryptonite Leggings",
+      "block.kryptadium.kryptonite_chest": "Kryptonite Chest",
+      "item.kryptonitemod.kryptonite": "Kryptonite",
+      "item.kryptadium.kryptonite_pickaxe": "Kryptonite Pickaxe",
+      "block.kryptadium.radar_cooldown": "Radar (Experimental)",
+      "item.kryptadium.kryptonite_hammer": "Kryptonite Hammer",
+      "item.kryptonitemod.kryptonitedynamiteneed": "Kryptonitedynamiteneed",
+      "item.kryptadium.kryptonite": "Kryptonite",
+      "item.kryptadium.kryptonite_nuggets": "Kryptonite Nuggets",
+      "item.minenoobs.kryptonite_axe": "Kryptonite Axe",
+      "item.minenoobs.glace_chocolate": "Glace Chocolate",
+      "advancements.get_a_kryptonite.descr": "Get one kryptonite",
+      "item.kryptonitemod.kryptonite_armor_chestplate": "Kryptonite Armor Body"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "kryptadium",
+    "modName": "Kryptadium 1.20.1",
+    "version": "0.0.5",
+    "description": "The Kryptadium Mod",
+    "author": "SkyFox and Infinitumcraft",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "yes",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Infinitumcraft And SkyFox Made This Mod",
+    "modElementsPackage": "net.mcreator.kryptonite",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

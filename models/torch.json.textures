@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "torchbase1",
+        "1": "torchbase2",
+        "2": "torchbase3"
+      },
+      "name": "default"
+    }
+  }
+}

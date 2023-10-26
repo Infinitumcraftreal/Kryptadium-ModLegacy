@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:snowball"
+    },
+    "3": {
+      "item": "minecraft:snowball"
+    },
+    "4": {
+      "item": "kryptadium:bar_de_chocolat"
+    },
+    "5": {
+      "item": "minecraft:snowball"
+    },
+    "7": {
+      "item": "kryptadium:cornet_de_glace"
+    }
+  },
+  "result": {
+    "item": "kryptadium:glace_chocolate",
+    "count": 1
+  }
+}

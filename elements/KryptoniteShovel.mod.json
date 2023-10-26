@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "texture": "kryptonite_shovel",
+    "customModelName": "Normal",
+    "name": "Kryptonite Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MineNoobs"
+    },
+    "harvestLevel": 5,
+    "efficiency": 11.0,
+    "attackSpeed": 1.0,
+    "enchantability": 17,
+    "damageVsEntity": 3.75,
+    "usageCount": 2125,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Kryptonite"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kryptadium:kryptonite_nuggets"
+    },
+    "1": {
+      "item": "kryptadium:kryptonite_nuggets"
+    },
+    "2": {
+      "item": "kryptadium:kryptonite_nuggets"
+    },
+    "3": {
+      "item": "kryptadium:kryptonite_nuggets"
+    },
+    "4": {
+      "item": "kryptadium:kryptonite_torch"
+    },
+    "5": {
+      "item": "kryptadium:kryptonite_nuggets"
+    },
+    "6": {
+      "item": "kryptadium:kryptonite_nuggets"
+    },
+    "7": {
+      "item": "kryptadium:kryptonite_nuggets"
+    },
+    "8": {
+      "item": "kryptadium:kryptonite_nuggets"
+    }
+  },
+  "result": {
+    "item": "kryptadium:kryptonite_lantern",
+    "count": 1
+  }
+}

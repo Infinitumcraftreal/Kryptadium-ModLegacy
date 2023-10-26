@@ -1,0 +1,35 @@
+{
+  "radar_sound": {
+    "subtitle": "subtitles.radar_sound",
+    "sounds": [
+      {
+        "name": "kryptadium:bibradar",
+        "stream": false
+      }
+    ]
+  },
+  "kryptonitebossdiesound": {
+    "sounds": [
+      {
+        "name": "kryptadium:dead",
+        "stream": false
+      }
+    ]
+  },
+  "kryptonitebosshurtsound": {
+    "sounds": [
+      {
+        "name": "kryptadium:hurt",
+        "stream": false
+      }
+    ]
+  },
+  "kryptonitebossstepsound": {
+    "sounds": [
+      {
+        "name": "kryptadium:step",
+        "stream": false
+      }
+    ]
+  }
+}

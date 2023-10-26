@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kryptadium:block/kryptonite_texturefix",
+    "up": "kryptadium:block/kryptonite_texturefix",
+    "north": "kryptadium:block/kryptonite_texturefix",
+    "east": "kryptadium:block/kryptonite_texturefix",
+    "south": "kryptadium:block/kryptonite_texturefix",
+    "west": "kryptadium:block/kryptonite_texturefix",
+    "particle": "kryptadium:block/kryptonite_texturefix"
+  },
+  "render_type": "solid"
+}

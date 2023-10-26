@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "kryptadium:kryptonite"
+    },
+    "1": {
+      "item": "kryptadium:kryptonite"
+    },
+    "2": {
+      "item": "kryptadium:kryptonite"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "kryptadium:kryptonite_pickaxe",
+    "count": 1
+  }
+}

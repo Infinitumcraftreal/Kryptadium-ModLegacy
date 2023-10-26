@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "texture": "kryptonite_axe_texture",
+    "customModelName": "Normal",
+    "name": "Kryptonite Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MineNoobs"
+    },
+    "harvestLevel": 5,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 17,
+    "damageVsEntity": 11.0,
+    "usageCount": 2156,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Kryptonite"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

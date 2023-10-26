@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kryptadium:kryptonite_block"
+    }
+  ],
+  "result": {
+    "item": "kryptadium:kryptonite",
+    "count": 9
+  }
+}

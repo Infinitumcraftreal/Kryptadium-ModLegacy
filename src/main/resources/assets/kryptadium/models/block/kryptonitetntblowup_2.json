@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kryptadium:block/yestntblowup",
+    "up": "kryptadium:block/yestntblowup",
+    "north": "kryptadium:block/yestntblowup",
+    "east": "kryptadium:block/yestntblowup",
+    "south": "kryptadium:block/yestntblowup",
+    "west": "kryptadium:block/yestntblowup",
+    "particle": "kryptadium:block/yestntblowup"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "kryptadium:kryptonite"
+    },
+    "1": {
+      "item": "kryptadium:kryptonite"
+    },
+    "2": {
+      "item": "kryptadium:kryptonite"
+    },
+    "3": {
+      "item": "kryptadium:kryptonite"
+    },
+    "5": {
+      "item": "kryptadium:kryptonite"
+    },
+    "6": {
+      "item": "kryptadium:kryptonite"
+    },
+    "8": {
+      "item": "kryptadium:kryptonite"
+    }
+  },
+  "result": {
+    "item": "kryptadium:kryptonite_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "kryptadium:kryptonite_armor_helmet"
+    },
+    "title": {
+      "translate": "advancements.full_kryptonite_armor.title"
+    },
+    "description": {
+      "translate": "advancements.full_kryptonite_armor.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "full_kryptonite_armor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "kryptadium:get_a_kryptonite"
+}

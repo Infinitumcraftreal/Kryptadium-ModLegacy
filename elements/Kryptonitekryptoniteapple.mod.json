@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Kryptonite"
+      },
+      {
+        "value": "CUSTOM:Kryptonite"
+      },
+      {
+        "value": "CUSTOM:Kryptonite"
+      },
+      {
+        "value": "CUSTOM:Kryptonite"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#0"
+      },
+      {
+        "value": "CUSTOM:Kryptonite"
+      },
+      {
+        "value": "CUSTOM:Kryptonite"
+      },
+      {
+        "value": "CUSTOM:Kryptonite"
+      },
+      {
+        "value": "CUSTOM:Kryptonite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:KryptoniteApple"
+    },
+    "name": "kryptonitekryptoniteapple",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "kryptadium:custom/torch",
+  "textures": {
+    "all": "kryptadium:block/torchbase1",
+    "particle": "kryptadium:block/torchbase1",
+    "0": "kryptadium:block/torchbase1",
+    "1": "kryptadium:block/torchbase2",
+    "2": "kryptadium:block/torchbase3"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "kryptadium:custom/lantern",
+  "textures": {
+    "all": "kryptadium:block/lanternbase1",
+    "particle": "kryptadium:block/lanternbase1",
+    "0": "kryptadium:block/lanternbase1",
+    "1": "kryptadium:block/lanternbase2"
+  },
+  "render_type": "solid"
+}

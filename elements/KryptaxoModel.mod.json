@@ -1,0 +1,7 @@
+{
+  "_fv": 47,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"281\" y=\"93\"><field name=\"trigger\">geckolib_model</field><next><block type=\"model_setup\"><field name=\"name\">Kryptaxo</field><field name=\"model\">kryptaxo</field><field name=\"texture\">kryptaxotexture</field><field name=\"headanim\">/**</field></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "kryptadium:kryptonite"
+    },
+    "1": {
+      "item": "kryptadium:kryptonite"
+    },
+    "2": {
+      "item": "kryptadium:kryptonite"
+    },
+    "3": {
+      "item": "kryptadium:kryptonite"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "kryptadium:kryptonite"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "kryptadium:kryptonite_hammer",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "kryptadium:custom/radar",
+  "textures": {
+    "all": "kryptadium:block/radar",
+    "particle": "kryptadium:block/radar",
+    "1": "kryptadium:block/textureradar",
+    "2": "kryptadium:block/pilier",
+    "3": "kryptadium:block/base",
+    "4": "kryptadium:block/radar",
+    "6": "kryptadium:block/white"
+  },
+  "render_type": "solid"
+}

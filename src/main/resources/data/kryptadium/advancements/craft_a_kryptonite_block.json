@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "kryptadium:kryptonite_block"
+    },
+    "title": {
+      "translate": "advancements.craft_a_kryptonite_block.title"
+    },
+    "description": {
+      "translate": "advancements.craft_a_kryptonite_block.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_a_kryptonite_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kryptadium:kryptonite_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "kryptadium:get_a_kryptonite"
+}

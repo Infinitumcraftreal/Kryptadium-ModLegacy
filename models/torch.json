@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "torchbase1",
+		"1": "torchbase2",
+		"2": "torchbase3",
+		"particle": "torchbase1"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 10, 9],
+			"faces": {
+				"north": {"uv": [7, 6, 9, 16], "texture": "#0"},
+				"east": {"uv": [7, 6, 9, 16], "texture": "#0"},
+				"south": {"uv": [7, 6, 9, 16], "texture": "#0"},
+				"west": {"uv": [7, 6, 9, 16], "texture": "#0"},
+				"up": {"uv": [9, 9, 7, 7], "texture": "#1"},
+				"down": {"uv": [9, 7, 7, 9], "texture": "#2"}
+			}
+		}
+	]
+}

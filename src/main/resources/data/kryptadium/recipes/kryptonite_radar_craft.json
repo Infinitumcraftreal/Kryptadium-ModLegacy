@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:compass"
+    },
+    "1": {
+      "item": "minecraft:compass"
+    },
+    "2": {
+      "item": "minecraft:compass"
+    },
+    "3": {
+      "item": "minecraft:compass"
+    },
+    "4": {
+      "item": "minecraft:clock"
+    },
+    "5": {
+      "item": "minecraft:compass"
+    },
+    "6": {
+      "item": "minecraft:compass"
+    },
+    "7": {
+      "item": "minecraft:compass"
+    },
+    "8": {
+      "item": "minecraft:compass"
+    }
+  },
+  "result": {
+    "item": "kryptadium:radar",
+    "count": 1
+  }
+}

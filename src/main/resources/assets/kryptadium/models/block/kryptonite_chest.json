@@ -1,0 +1,9 @@
+{
+  "parent": "kryptadium:custom/kryptonitechest",
+  "textures": {
+    "all": "kryptadium:block/kryptonitechesttexture",
+    "particle": "kryptadium:block/kryptonitechesttexture",
+    "0": "kryptadium:block/kryptonitechesttexture"
+  },
+  "render_type": "solid"
+}
