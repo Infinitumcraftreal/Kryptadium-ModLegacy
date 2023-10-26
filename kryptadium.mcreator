@@ -1089,21 +1089,6 @@
       }
     },
     {
-      "name": "KryptoniteBoss",
-      "type": "livingentity",
-      "sortid": 71,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kryptonite_boss",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/kryptonite/entity/KryptoniteBossEntity.java",
-          "src/main/java/net/mcreator/kryptonite/client/renderer/KryptoniteBossRenderer.java",
-          "src/main/resources/assets/kryptadium/models/item/kryptonite_boss_spawn_egg.json"
-        ]
-      }
-    },
-    {
       "name": "KryptoniteBossModel",
       "type": "procedure",
       "sortid": 72,
@@ -1145,22 +1130,6 @@
             "name": "world",
             "type": "world"
           }
-        ]
-      }
-    },
-    {
-      "name": "Kryptaxo",
-      "type": "livingentity",
-      "sortid": 73,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kryptaxo",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/kryptadium/models/item/kryptaxo_spawn_egg.json",
-          "src/main/java/net/mcreator/kryptonite/entity/KryptaxoEntity.java",
-          "src/main/resources/data/kryptadium/forge/biome_modifier/kryptaxo_biome_modifier.json",
-          "src/main/java/net/mcreator/kryptonite/client/renderer/KryptaxoRenderer.java"
         ]
       }
     },
@@ -1429,6 +1398,58 @@
           "src/main/resources/data/kryptadium/recipes/kryptonite_chest_craft.json"
         ]
       }
+    },
+    {
+      "name": "KryptoniteBoss",
+      "type": "animatedentity",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_boss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/entity/model/KryptoniteBossModel.java",
+          "src/main/java/net/mcreator/kryptonite/entity/KryptoniteBossEntity.java",
+          "src/main/java/net/mcreator/kryptonite/client/renderer/KryptoniteBossRenderer.java",
+          "src/main/resources/assets/kryptadium/models/item/kryptonite_boss_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Kryptaxo",
+      "type": "animatedentity",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptaxo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kryptadium/models/item/kryptaxo_spawn_egg.json",
+          "src/main/java/net/mcreator/kryptonite/entity/model/KryptaxoModel.java",
+          "src/main/java/net/mcreator/kryptonite/entity/KryptaxoEntity.java",
+          "src/main/resources/data/kryptadium/forge/biome_modifier/kryptaxo_biome_modifier.json",
+          "src/main/java/net/mcreator/kryptonite/client/renderer/KryptaxoRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "KryptoniteBossEntityDies",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kryptonite_boss_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kryptonite/procedures/KryptoniteBossEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1481,22 +1502,22 @@
       "gui.kryptadium.kryptonite_chest_gui.label_inventory": "Inventory",
       "block.kryptadium.kryptonite_ore": "Kryptonite Ore",
       "advancements.kryptadium.title": "Kryptadium",
-      "item.kryptonitemod.bar_de_chocolat": "Bar De Chocolat",
+      "item.kryptonitemod.bar_de_chocolat": "Chocolate",
       "item.kryptadium.kryptaxo_spawn_egg": "Kryptaxo Spawn Egg",
       "item_group.kryptadium.mine_noobs": "Kryptadium",
       "gui.kryptadium.kryptonite_chest_gui.label_kryptonite_chest": "Kryptonite Chest",
       "subtitles.kryptonitebossdiesound": "",
       "item.kryptonitemod.kryptonite_apple": "Kryptonite Apple",
       "advancements.kryptadium.descr": "Play With The Mod Kryptadium Installed",
-      "item.kryptadium.kryptonite_boss_spawn_egg": "Kryptonite Golem Spawn Egg",
       "subtitles.kryptonitebosshurtsound": "",
-      "item.minenoobs.bar_de_chocolat": "Bar De Chocolat",
+      "item.kryptadium.kryptonite_boss_spawn_egg": "Kryptonite Golem Spawn Egg",
+      "item.minenoobs.bar_de_chocolat": "Chocolate",
       "item.kryptadium.kryptonite_shovel": "Kryptonite Shovel",
       "item.kryptonitemod.kryptonite_hoe": "Kryptonite Hoe",
       "item.minenoobs.kryptonite_pickaxe": "Kryptonite Pickaxe",
       "item.minenoobs.kryptonite_armor_leggings": "Kryptonite Armor Leggings",
       "item.kryptonitemod.kryptonite_bow": "Kryptonite Bow",
-      "item.minenoobs.cornet_de_glace": "Cornet De Glace",
+      "item.minenoobs.cornet_de_glace": "Ice Cream Cone",
       "block.kryptadium.kryptonite_torch": "Kryptonite Torch",
       "block.kryptadium.kryptonitetntblowup_1": "Kryptonitetntblowup 1",
       "entity.kryptadium.kryptaxo": "Kryptaxo",
@@ -1509,15 +1530,15 @@
       "item.kryptonitemod.kryptonite_axe": "Kryptonite Axe",
       "block.minenoobs.kryptonite_block": "Kryptonite Block",
       "item.minenoobs.kryptonite_bow": "Kryptonite Bow",
-      "item.kryptonitemod.glace_chocolate": "Glace Chocolate",
+      "item.kryptonitemod.glace_chocolate": "Chocolate Ice Cream",
       "block.minenoobs.kryptonite_ore": "Kryptonite Ore",
       "item.kryptonitemod.krypto_knife": "Krypto Knife",
-      "item.kryptadium.cornet_de_glace": "Cornet De Glace",
+      "item.kryptadium.cornet_de_glace": "Ice Cream Cone",
       "item.kryptadium.kryptonite_dynamite": "Kryptonite Dynamite",
       "advancements.craft_a_kryptonite_block.descr": "You Got A Kryptonite Block!",
       "item.kryptonitemod.cornet_de_glace": "Cornet De Glace",
       "item.kryptonitemod.kryptonite_armor_leggings": "Kryptonite Armor Leggings",
-      "item.kryptadium.glace_chocolate": "Glace Chocolate",
+      "item.kryptadium.glace_chocolate": "Chocolate Ice Cream",
       "item.minenoobs.kryptonitedynamiteneed": "Kryptonitedynamiteneed",
       "advancements.get_a_kryptonite.title": "Get A Kryptonite",
       "block.kryptonitemod.kryptonite_block": "Kryptonite Block",
@@ -1535,7 +1556,7 @@
       "item.kryptonitemod.kryptonite_armor_boots": "Kryptonite Armor Boots",
       "item.kryptadium.kryptonite_bow": "Kryptonite Bow",
       "advancements.full_kryptonite_armor.descr": "Get A Full Set Of Kryptonite Armor",
-      "item.kryptadium.bar_de_chocolat": "Bar De Chocolat",
+      "item.kryptadium.bar_de_chocolat": "Chocolate bar",
       "advancements.killing_the_kryptonite_boss.title": "Killing The Kryptonite Boss",
       "item.kryptadium.kryptonite_armor_boots": "Kryptonite Boots",
       "item.minenoobs.kryptonite_dynamite": "Kryptonite Dynamite",
@@ -1559,8 +1580,104 @@
       "item.kryptadium.kryptonite": "Kryptonite",
       "item.kryptadium.kryptonite_nuggets": "Kryptonite Nuggets",
       "item.minenoobs.kryptonite_axe": "Kryptonite Axe",
-      "item.minenoobs.glace_chocolate": "Glace Chocolate",
+      "item.minenoobs.glace_chocolate": "Chocolate Ice Cream",
       "advancements.get_a_kryptonite.descr": "Get one kryptonite",
+      "item.kryptonitemod.kryptonite_armor_chestplate": "Kryptonite Armor Body"
+    },
+    "fr_fr": {
+      "subtitles.radar_sound": "The Beep Sound Of The Radar",
+      "entity.kryptadium.kryptonite_boss": "Golem en Kryptonite",
+      "item.kryptonitemod.kryptonite_pickaxe": "Pioche en Kryptonite",
+      "block.kryptadium.kryptonitetntblowup_2": "Kryptonitetntblowup 2",
+      "item.kryptonitemod.kryptonite_shovel": "Pelle en Kryptonite",
+      "block.kryptadium.kryptonite_block": "Bloc de Kryptonite",
+      "item.kryptadium.kryptonite_apple": "Pomme en Kryptonite",
+      "item.minenoobs.krypto_knife": "Couteau en Kryptonite",
+      "item.kryptadium.kryptonite_axe": "Hache en Kryptonite",
+      "block.kryptadium.radar": "Radar (Experimental)",
+      "gui.kryptadium.kryptonite_chest_gui.label_inventory": "Inventory",
+      "block.kryptadium.kryptonite_ore": "Minerai de Kryptonite",
+      "advancements.kryptadium.title": "Kryptadium",
+      "item.kryptonitemod.bar_de_chocolat": "Bar De Chocolat",
+      "item.kryptadium.kryptaxo_spawn_egg": "Œufs d\u0027apparition de Kryptaxo",
+      "item_group.kryptadium.mine_noobs": "Kryptadium",
+      "gui.kryptadium.kryptonite_chest_gui.label_kryptonite_chest": "Coffre en Kryptadium",
+      "subtitles.kryptonitebossdiesound": "",
+      "item.kryptonitemod.kryptonite_apple": "Pomme en Kryptonite",
+      "advancements.kryptadium.descr": "Jouer avec le mod Kryptadium Installé",
+      "subtitles.kryptonitebosshurtsound": "",
+      "item.kryptadium.kryptonite_boss_spawn_egg": "Œufs d\u0027apparition de Golem en Kryptonite",
+      "item.minenoobs.bar_de_chocolat": "Bar De Chocolat",
+      "item.kryptadium.kryptonite_shovel": "Pelle en Kryptonite",
+      "item.kryptonitemod.kryptonite_hoe": "Houe en Kryptonite",
+      "item.minenoobs.kryptonite_pickaxe": "Pioche en Kryptonite",
+      "item.minenoobs.kryptonite_armor_leggings": "Jambière en Kryptonite",
+      "item.kryptonitemod.kryptonite_bow": "Arc en Kryptonite",
+      "item.minenoobs.cornet_de_glace": "Cornet De Glace",
+      "block.kryptadium.kryptonite_torch": "Torche en Kryptonite",
+      "block.kryptadium.kryptonitetntblowup_1": "Kryptonitetntblowup 1",
+      "entity.kryptadium.kryptaxo": "Kryptaxo",
+      "item.minenoobs.kryptonite_shovel": "Pelle en Kryptonite",
+      "block.kryptonitemod.kryptonite_ore": "Minerai de Kryptonite",
+      "item.kryptadium.kryptonite_sword": "Épée en Kryptonite",
+      "subtitles.kryptonitebossstepsound": "",
+      "item.kryptadium.kryptonite_armor_helmet": "Casque en Kryptonite",
+      "item.minenoobs.kryptonite_hoe": "Houe en Kryptonite",
+      "item.kryptonitemod.kryptonite_axe": "Hache en Kryptonite",
+      "block.minenoobs.kryptonite_block": "Bloc de Kryptonite",
+      "item.minenoobs.kryptonite_bow": "Arc en Kryptonite",
+      "item.kryptonitemod.glace_chocolate": "Glace au Chocolat",
+      "block.minenoobs.kryptonite_ore": "Minerai de Kryptonite",
+      "item.kryptonitemod.krypto_knife": "Couteau en Kryptonite",
+      "item.kryptadium.cornet_de_glace": "Cornet de glace",
+      "item.kryptadium.kryptonite_dynamite": "Dynamite en Kryptonite",
+      "advancements.craft_a_kryptonite_block.descr": "Vous avez un bloc de Kryptonite !",
+      "item.kryptonitemod.cornet_de_glace": "Cornet De Glace",
+      "item.kryptonitemod.kryptonite_armor_leggings": "Jambières en Kryptonite",
+      "item.kryptadium.glace_chocolate": "glace au Chocolat",
+      "item.minenoobs.kryptonitedynamiteneed": "Kryptonitedynamiteneed",
+      "advancements.get_a_kryptonite.title": "Avoir un Kryptonite",
+      "block.kryptonitemod.kryptonite_block": "Bloc de Kryptonite",
+      "item.kryptonitemod.kryptonite_sword": "Épée en Kryptonite",
+      "item.minenoobs.kryptonite_apple": "Pomme de Kryptonite",
+      "item.minenoobs.kryptonite": "Kryptonite",
+      "advancements.killing_the_kryptonite_boss.descr": "Tué le Golem en Kryptonite",
+      "item.kryptadium.kryptonitedynamiteneed": "Kryptonitedynamiteneed",
+      "advancements.full_kryptonite_armor.title": "Full Kryptonite Armor",
+      "item.kryptadium.krypto_knife": "Couteau en Kryptonite",
+      "block.minenoobs.kryptonite_tnt": "Kryptonite Tnt",
+      "item.minenoobs.kryptonite_armor_helmet": "Casque en Kryptonite",
+      "item.kryptonitemod.kryptonite_dynamite": "Dynamite Kryptonite",
+      "block.kryptonitemod.kryptonite_tnt": "Kryptonite Tnt",
+      "item.kryptonitemod.kryptonite_armor_boots": "Bottes en Kryptonite",
+      "item.kryptadium.kryptonite_bow": "Arc en Kryptonite",
+      "advancements.full_kryptonite_armor.descr": "Avoir une armure entière en Kryptonite",
+      "item.kryptadium.bar_de_chocolat": "Bar de chocolat",
+      "advancements.killing_the_kryptonite_boss.title": "Tué le Golem en Kryptonite",
+      "item.kryptadium.kryptonite_armor_boots": "Bottes en Kryptonite",
+      "item.minenoobs.kryptonite_dynamite": "Dynamite Kryptonite",
+      "item.kryptadium.kryptonite_hoe": "Houe en Kryptonite",
+      "item.kryptadium.kryptonite_armor_chestplate": "Plastron en Kryptonite",
+      "block.kryptadium.kryptonite_lantern": "Lanterne de Kryptonite",
+      "itemGroup.tabmine_noobs": "Kryptadium",
+      "item.minenoobs.kryptonite_sword": "Épée en Kryptonite",
+      "item.minenoobs.kryptonite_armor_chestplate": "Kryptonite Armor Body",
+      "item.minenoobs.kryptonite_armor_boots": "Bottes en Kryptonite",
+      "block.kryptadium.kryptonite_tnt": "Kryptonite Tnt",
+      "advancements.craft_a_kryptonite_block.title": "Craft un bloc en Kryptonite",
+      "item.kryptonitemod.kryptonite_armor_helmet": "Casque en Kryptonite",
+      "item.kryptadium.kryptonite_armor_leggings": "Jambières en Kryptonite",
+      "block.kryptadium.kryptonite_chest": "Coffre en Kryptonite",
+      "item.kryptonitemod.kryptonite": "Kryptonite",
+      "item.kryptadium.kryptonite_pickaxe": "Pioche en Kryptonite",
+      "block.kryptadium.radar_cooldown": "Radar (Experimental)",
+      "item.kryptadium.kryptonite_hammer": "Marteau en Kryptonite",
+      "item.kryptonitemod.kryptonitedynamiteneed": "Kryptonitedynamiteneed",
+      "item.kryptadium.kryptonite": "Kryptonite",
+      "item.kryptadium.kryptonite_nuggets": "Pépite de Kryptonite",
+      "item.minenoobs.kryptonite_axe": "Hache de Kryptonite",
+      "item.minenoobs.glace_chocolate": "Glace au Chocolat",
+      "advancements.get_a_kryptonite.descr": "Avoir un Kryptonite",
       "item.kryptonitemod.kryptonite_armor_chestplate": "Kryptonite Armor Body"
     }
   },
@@ -1582,7 +1699,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Infinitumcraft And SkyFox Made This Mod",
     "modElementsPackage": "net.mcreator.kryptonite",

@@ -62,10 +62,10 @@ public class KryptadiumModItems {
 	public static final RegistryObject<Item> KRYPTONITE_NUGGETS = REGISTRY.register("kryptonite_nuggets", () -> new KryptoniteNuggetsItem());
 	public static final RegistryObject<Item> KRYPTONITE_LANTERN = block(KryptadiumModBlocks.KRYPTONITE_LANTERN);
 	public static final RegistryObject<Item> RADAR_COOLDOWN = block(KryptadiumModBlocks.RADAR_COOLDOWN);
-	public static final RegistryObject<Item> KRYPTONITE_BOSS_SPAWN_EGG = REGISTRY.register("kryptonite_boss_spawn_egg", () -> new ForgeSpawnEggItem(KryptadiumModEntities.KRYPTONITE_BOSS, -13369549, -16724941, new Item.Properties()));
-	public static final RegistryObject<Item> KRYPTAXO_SPAWN_EGG = REGISTRY.register("kryptaxo_spawn_egg", () -> new ForgeSpawnEggItem(KryptadiumModEntities.KRYPTAXO, -13369549, -16724992, new Item.Properties()));
 	public static final RegistryObject<Item> KRYPTONITE_HAMMER = REGISTRY.register("kryptonite_hammer", () -> new KryptoniteHammerItem());
 	public static final RegistryObject<Item> KRYPTONITE_CHEST = block(KryptadiumModBlocks.KRYPTONITE_CHEST);
+	public static final RegistryObject<Item> KRYPTONITE_BOSS_SPAWN_EGG = REGISTRY.register("kryptonite_boss_spawn_egg", () -> new ForgeSpawnEggItem(KryptadiumModEntities.KRYPTONITE_BOSS, -13369549, -16724941, new Item.Properties()));
+	public static final RegistryObject<Item> KRYPTAXO_SPAWN_EGG = REGISTRY.register("kryptaxo_spawn_egg", () -> new ForgeSpawnEggItem(KryptadiumModEntities.KRYPTAXO, -13369549, -16724992, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

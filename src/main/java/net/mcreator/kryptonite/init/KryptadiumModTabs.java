@@ -42,9 +42,9 @@ public class KryptadiumModTabs {
 				tabData.accept(KryptadiumModBlocks.KRYPTONITE_TORCH.get().asItem());
 				tabData.accept(KryptadiumModItems.KRYPTONITE_NUGGETS.get());
 				tabData.accept(KryptadiumModBlocks.KRYPTONITE_LANTERN.get().asItem());
-				tabData.accept(KryptadiumModItems.KRYPTONITE_BOSS_SPAWN_EGG.get());
-				tabData.accept(KryptadiumModItems.KRYPTAXO_SPAWN_EGG.get());
 				tabData.accept(KryptadiumModItems.KRYPTONITE_HAMMER.get());
 				tabData.accept(KryptadiumModBlocks.KRYPTONITE_CHEST.get().asItem());
+				tabData.accept(KryptadiumModItems.KRYPTONITE_BOSS_SPAWN_EGG.get());
+				tabData.accept(KryptadiumModItems.KRYPTAXO_SPAWN_EGG.get());
 			}).withSearchBar().build());
 }
